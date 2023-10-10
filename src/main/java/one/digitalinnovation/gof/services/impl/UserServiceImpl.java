@@ -3,11 +3,13 @@ package one.digitalinnovation.gof.services.impl;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import one.digitalinnovation.gof.models.User;
 import one.digitalinnovation.gof.models.UserRepository;
 import one.digitalinnovation.gof.services.UserService;
 
+@Service
 public class UserServiceImpl implements UserService {
 
     @Autowired

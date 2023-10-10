@@ -3,11 +3,13 @@ package one.digitalinnovation.gof.services.impl;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import one.digitalinnovation.gof.models.Task;
 import one.digitalinnovation.gof.models.TaskRepository;
 import one.digitalinnovation.gof.services.TaskService;
 
+@Service
 public class TaskServiceImpl implements TaskService {
 
     @Autowired
